@@ -1,0 +1,279 @@
+.avatar {
+  height: 40px;
+  width: 40px;
+}
+
+.avatar .AK {
+  position: relative;
+}
+
+.avatar .div {
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.avatar .text-wrapper {
+  color: var(--variables-theme-text-primary);
+  font-family: var(--components-typography-avatar-initials-font-family);
+  font-size: var(--components-typography-avatar-initials-font-size);
+  font-style: var(--components-typography-avatar-initials-font-style);
+  font-weight: var(--components-typography-avatar-initials-font-weight);
+  letter-spacing: var(--components-typography-avatar-initials-letter-spacing);
+  line-height: var(--components-typography-avatar-initials-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.avatar .remix-icons-line {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.avatar .badge {
+  background-color: #56ca00;
+  border-radius: 4px;
+  height: 8px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 8px;
+}
+
+.avatar.image-false {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.avatar.badge-true {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.avatar.image-true.badge-false {
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.avatar.badge-false.image-false {
+  background-color: var(--variables-misc-avatar-bg);
+}
+
+.avatar.badge-false.rounded {
+  border-radius: var(--variables-border-radius-border-radius-md);
+}
+
+.avatar.badge-false.icon-true {
+  padding: 8px;
+}
+
+.avatar.badge-false.circle {
+  border-radius: var(--variables-border-radius-border-round);
+}
+
+.avatar.image-true.badge-false.rounded {
+  background-image: url(/static/img/variant-rounded-badge-false-icon-false-image-true.png);
+}
+
+.avatar.square.badge-false.image-true {
+  background-image: url(/static/img/variant-square-badge-false-icon-false-image-true.png);
+}
+
+.avatar.image-true.badge-false.circle {
+  background-image: url(/static/img/variant-circle-badge-false-icon-false-image-true.png);
+}
+
+.avatar.badge-false.rounded.image-false {
+  overflow: hidden;
+}
+
+.avatar.badge-false.icon-false.circle.image-false {
+  overflow: hidden;
+}
+
+.avatar.badge-false .AK {
+  color: var(--variables-theme-text-primary);
+  font-family: var(--components-typography-avatar-initials-font-family);
+  font-size: var(--components-typography-avatar-initials-font-size);
+  font-style: var(--components-typography-avatar-initials-font-style);
+  font-weight: var(--components-typography-avatar-initials-font-weight);
+  letter-spacing: var(--components-typography-avatar-initials-letter-spacing);
+  line-height: var(--components-typography-avatar-initials-line-height);
+  margin-top: -1px;
+  text-align: center;
+}
+
+.avatar.badge-true .AK {
+  align-self: stretch;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.avatar.circle .AK {
+  align-self: stretch;
+  flex: 1;
+}
+
+.avatar.square.badge-false .AK {
+  height: 40px;
+  width: 40px;
+}
+
+.avatar.square.image-true .AK {
+  background-image: url(/static/img/variant-square-badge-false-icon-false-image-true.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.avatar.badge-false.rounded .AK {
+  height: 40px;
+  width: 40px;
+}
+
+.avatar.rounded .overlap-group-6 {
+  height: 44px;
+  position: relative;
+  width: 44px;
+}
+
+.avatar.image-false .overlap-group-6 {
+  position: relative;
+}
+
+.avatar.circle .overlap-group-6 {
+  border-radius: 500px;
+  height: 40px;
+  width: 40px;
+}
+
+.avatar.square .overlap-group-6 {
+  position: relative;
+}
+
+.avatar.square.image-false .overlap-group-6 {
+  height: 44px;
+  width: 44px;
+}
+
+.avatar.square.image-true .overlap-group-6 {
+  background-color: #ffffff;
+  border-radius: 64px;
+  height: 12px;
+  left: 32px;
+  top: 32px;
+  width: 12px;
+}
+
+.avatar.image-true.circle .overlap-group-6 {
+  background-image: url(/static/img/variant-circle-badge-false-icon-false-image-true.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.avatar.rounded .div {
+  border-radius: var(--variables-border-radius-border-radius-md);
+}
+
+.avatar.image-false .div {
+  align-items: center;
+  background-color: var(--variables-misc-avatar-bg);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.avatar.circle .div {
+  border-radius: var(--variables-border-radius-border-round);
+}
+
+.avatar.icon-true .div {
+  padding: 8px;
+}
+
+.avatar.image-true .div {
+  background-image: url(/static/img/variant-rounded-badge-false-icon-false-image-true.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.avatar.icon-true.rounded .div {
+  overflow: hidden;
+}
+
+.avatar.icon-false.circle .div {
+  overflow: hidden;
+}
+
+.avatar.rounded.image-false .div {
+  overflow: hidden;
+}
+
+.avatar.rounded .text-wrapper {
+  height: 40px;
+  width: 40px;
+}
+
+.avatar.square .text-wrapper {
+  height: 40px;
+  width: 40px;
+}
+
+.avatar.circle .text-wrapper {
+  align-self: stretch;
+  flex: 1;
+}
+
+.avatar.rounded .border {
+  background-color: #ffffff;
+  border-radius: 64px;
+  height: 12px;
+  left: 32px;
+  position: absolute;
+  top: 32px;
+  width: 12px;
+}
+
+.avatar.image-false .border {
+  background-color: #ffffff;
+  border-radius: 64px;
+  height: 12px;
+  position: absolute;
+  width: 12px;
+}
+
+.avatar.circle .border {
+  background-color: #ffffff;
+  border-radius: 64px;
+  height: 12px;
+  left: 28px;
+  top: 28px;
+  width: 12px;
+}
+
+.avatar.square.image-false .border {
+  left: 32px;
+  top: 32px;
+}
+
+.avatar.square.image-true .border {
+  background-color: #56ca00;
+  border-radius: 4px;
+  height: 8px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 8px;
+}
+
+.avatar.image-true.circle .border {
+  position: relative;
+}

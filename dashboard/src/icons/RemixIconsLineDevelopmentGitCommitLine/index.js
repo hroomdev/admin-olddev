@@ -1,0 +1,1 @@
+export { RemixIconsLineDevelopmentGitCommitLine } from "./RemixIconsLineDevelopmentGitCommitLine";

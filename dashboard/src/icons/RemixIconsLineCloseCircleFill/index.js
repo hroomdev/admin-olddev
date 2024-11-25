@@ -1,0 +1,1 @@
+export { RemixIconsLineCloseCircleFill } from "./RemixIconsLineCloseCircleFill";

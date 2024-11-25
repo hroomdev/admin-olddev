@@ -1,0 +1,1 @@
+export { RemixIconsLineDocumentBillLine } from "./RemixIconsLineDocumentBillLine";

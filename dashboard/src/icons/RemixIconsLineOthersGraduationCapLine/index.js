@@ -1,0 +1,1 @@
+export { RemixIconsLineOthersGraduationCapLine } from "./RemixIconsLineOthersGraduationCapLine";

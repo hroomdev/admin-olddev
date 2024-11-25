@@ -1,0 +1,1 @@
+export { RemixIconsLineSystemSearchLine } from "./RemixIconsLineSystemSearchLine";

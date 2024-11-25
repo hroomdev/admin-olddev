@@ -1,0 +1,553 @@
+.select-custome {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.select-custome .text-field {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.select-custome .form-control {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 4px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.select-custome .form-label {
+  align-items: center;
+  border-radius: 3px;
+  display: inline-flex;
+  position: absolute;
+}
+
+.select-custome .label-text-2 {
+  font-family: var(--components-typography-input-label-font-family);
+  font-size: var(--components-typography-input-label-font-size);
+  font-style: var(--components-typography-input-label-font-style);
+  font-weight: var(--components-typography-input-label-font-weight);
+  letter-spacing: var(--components-typography-input-label-letter-spacing);
+  line-height: var(--components-typography-input-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.select-custome .label-text-wrapper {
+  align-items: center;
+  border-radius: 3px;
+  display: inline-flex;
+  left: 0;
+  position: absolute;
+  top: -19px;
+}
+
+.select-custome .label-text-3 {
+  color: #2e263de6;
+  font-family: var(--components-typography-input-label-font-family);
+  font-size: var(--components-typography-input-label-font-size);
+  font-style: var(--components-typography-input-label-font-style);
+  font-weight: var(--components-typography-input-label-font-weight);
+  letter-spacing: var(--components-typography-input-label-letter-spacing);
+  line-height: var(--components-typography-input-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.select-custome .content {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.select-custome .placeholder-text-2 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.select-custome .placeholder-text-3 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.select-custome .caret {
+  height: 17px;
+  margin-bottom: -0.5px;
+  margin-left: -0.5px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 1px;
+}
+
+.select-custome .input {
+  background: transparent;
+  border: none;
+  color: #2e263de6;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.select-custome .caret-2 {
+  height: 17px;
+  margin-right: -0.5px;
+  position: relative;
+  width: 1px;
+}
+
+.select-custome .class {
+  height: 22px !important;
+  position: relative !important;
+  width: 22px !important;
+}
+
+.select-custome .class-2 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.select-custome .class-3 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.select-custome .form-text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 4px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.select-custome .supporting-text {
+  font-family: var(--components-typography-helper-text-font-family);
+  font-size: var(--components-typography-helper-text-font-size);
+  font-style: var(--components-typography-helper-text-font-style);
+  font-weight: var(--components-typography-helper-text-font-weight);
+  letter-spacing: var(--components-typography-helper-text-letter-spacing);
+  line-height: var(--components-typography-helper-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.select-custome.disabled {
+  width: 160px;
+}
+
+.select-custome.hover {
+  border: 0px none;
+  border-color: var(--m3syslighton-surface);
+  width: 162px;
+}
+
+.select-custome.focus {
+  width: 160px;
+}
+
+.select-custome.default {
+  width: 160px;
+}
+
+.select-custome.success {
+  width: 160px;
+}
+
+.select-custome.error {
+  width: 160px;
+}
+
+.select-custome .input-text {
+  gap: 10px;
+}
+
+.select-custome .state-disabled {
+  border: 2px solid;
+  border-color: #ff4c51;
+  flex: 0 0 auto;
+  gap: 10px;
+}
+
+.select-custome .m {
+  border-radius: var(--variables-border-radius-border-radius-md);
+  justify-content: center;
+}
+
+.select-custome .state-hover {
+  border: 1px solid;
+  border-color: var(--variables-theme-action-active);
+  flex: 0 0 auto;
+}
+
+.select-custome .state-focus {
+  border: 2px solid;
+  border-color: #b29df8;
+  flex: 0 0 auto;
+}
+
+.select-custome .placeholder-text {
+  flex: 0 0 auto;
+}
+
+.select-custome .SM {
+  border-radius: var(--variables-border-radius-border-radius-sm);
+  flex: 0 0 auto;
+}
+
+.select-custome .state-default {
+  border: 1px solid;
+  border-color: var(--variables-theme-input-border);
+}
+
+.select-custome .label-text {
+  flex: 0 0 auto;
+  gap: 10px;
+}
+
+.select-custome .LG {
+  border-radius: var(--variables-border-radius-border-radius-lg);
+  flex: 0 0 auto;
+}
+
+.select-custome .state-success {
+  border: 2px solid;
+  border-color: var(--variables-color-palette-success-main);
+  flex: 0 0 auto;
+}
+
+.select-custome .state-error {
+  border: 2px solid;
+  border-color: #ff4c51;
+  flex: 0 0 auto;
+}
+
+.select-custome .input-text.state-default.m {
+  height: 38px;
+}
+
+.select-custome .label-text.LG.state-focus {
+  justify-content: center;
+}
+
+.select-custome .text-field.state-disabled .form-control {
+  border: 1px solid;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+}
+
+.select-custome .text-field.SM .form-control {
+  border-radius: var(--extra-border-radius-border-radius-SM);
+}
+
+.select-custome .text-field.state-hover.LG .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 44px;
+}
+
+.select-custome .text-field.state-default.LG .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 44px;
+}
+
+.select-custome .text-field.LG.state-focus .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 44px;
+}
+
+.select-custome .text-field.LG.state-disabled .form-control {
+  border-radius: 4px;
+  height: 46px;
+}
+
+.select-custome .text-field.state-default.m .form-control {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.select-custome .text-field.SM.state-disabled .form-control {
+  height: 34px;
+}
+
+.select-custome .text-field.state-hover.SM .form-control {
+  height: 32px;
+}
+
+.select-custome .text-field.state-hover.m .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 38px;
+}
+
+.select-custome .text-field.SM.state-success .form-control {
+  height: 32px;
+}
+
+.select-custome .text-field.placeholder-text.state-disabled .form-control {
+  border-color: var(--m3state-layerslighton-surfaceopacity-012);
+}
+
+.select-custome .text-field.input-text.state-disabled .form-control {
+  border-color: var(--m3state-layerslightoutlineopacity-012);
+}
+
+.select-custome .text-field.SM.state-focus .form-control {
+  height: 32px;
+}
+
+.select-custome .text-field.state-default.SM .form-control {
+  height: 32px;
+}
+
+.select-custome .text-field.label-text.state-disabled .form-control {
+  border-color: var(--m3state-layerslighton-surfaceopacity-012);
+}
+
+.select-custome .text-field.LG.state-success .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 44px;
+}
+
+.select-custome .text-field.m.state-error .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 38px;
+}
+
+.select-custome .text-field.m.state-focus .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 38px;
+}
+
+.select-custome .text-field.SM.state-error .form-control {
+  height: 32px;
+}
+
+.select-custome .text-field.LG.state-error .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 44px;
+}
+
+.select-custome .text-field.m.state-success .form-control {
+  border-radius: 4px 4px 0px 0px;
+  height: 38px;
+}
+
+.select-custome .text-field.m.state-disabled .form-control {
+  border-radius: 4px;
+  height: 40px;
+}
+
+.select-custome .text-field.placeholder-text.state-default.m .form-control {
+  height: 38px;
+}
+
+.select-custome .text-field.input-text.state-default.m .form-control {
+  flex: 0 0 auto;
+}
+
+.select-custome .text-field.label-text.state-default.m .form-control {
+  height: 38px;
+}
+
+.select-custome .text-field.label-text .form-label {
+  left: -3px;
+  padding: 2px 6px;
+  top: -18px;
+}
+
+.select-custome .text-field.input-text .form-label {
+  left: 0;
+  top: -16px;
+}
+
+.select-custome .text-field.placeholder-text .form-label {
+  left: 0;
+  top: -16px;
+}
+
+.select-custome .text-field.state-disabled .label-text-2 {
+  color: #2e263de6;
+  opacity: 0.38;
+}
+
+.select-custome .text-field.state-hover .label-text-2 {
+  color: #2e263de6;
+}
+
+.select-custome .text-field.state-focus .label-text-2 {
+  color: #b29df8;
+}
+
+.select-custome .text-field.state-default .label-text-2 {
+  color: #2e263de6;
+}
+
+.select-custome .text-field.state-success .label-text-2 {
+  color: var(--variables-color-palette-success-main);
+}
+
+.select-custome .text-field.state-error .label-text-2 {
+  color: #ff4c51;
+}
+
+.select-custome .text-field.input-text .placeholder-text-2 {
+  align-items: center;
+}
+
+.select-custome .text-field.placeholder-text .placeholder-text-2 {
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.select-custome .text-field.label-text .placeholder-text-2 {
+  align-items: center;
+}
+
+.select-custome .text-field.placeholder-text.LG .placeholder-text-2 {
+  margin-right: -1px;
+}
+
+.select-custome .text-field.input-text .placeholder-text-3 {
+  color: #2e263de6;
+}
+
+.select-custome .text-field.state-disabled .placeholder-text-3 {
+  opacity: 0.38;
+}
+
+.select-custome .text-field.m .placeholder-text-3 {
+  font-family: var(--components-typography-input-text-font-family);
+  font-size: var(--components-typography-input-text-font-size);
+  font-style: var(--components-typography-input-text-font-style);
+  font-weight: var(--components-typography-input-text-font-weight);
+  letter-spacing: var(--components-typography-input-text-letter-spacing);
+  line-height: var(--components-typography-input-text-line-height);
+}
+
+.select-custome .text-field.placeholder-text .placeholder-text-3 {
+  color: #2e263d66;
+}
+
+.select-custome .text-field.SM .placeholder-text-3 {
+  font-family: var(--components-typography-input-text-small-font-family);
+  font-size: var(--components-typography-input-text-small-font-size);
+  font-style: var(--components-typography-input-text-small-font-style);
+  font-weight: var(--components-typography-input-text-small-font-weight);
+  letter-spacing: var(--components-typography-input-text-small-letter-spacing);
+  line-height: var(--components-typography-input-text-small-line-height);
+}
+
+.select-custome .text-field.LG .placeholder-text-3 {
+  font-family: var(--components-typography-input-text-large-font-family);
+  font-size: var(--components-typography-input-text-large-font-size);
+  font-style: var(--components-typography-input-text-large-font-style);
+  font-weight: var(--components-typography-input-text-large-font-weight);
+  letter-spacing: var(--components-typography-input-text-large-letter-spacing);
+  line-height: var(--components-typography-input-text-large-line-height);
+}
+
+.select-custome .text-field.label-text.state-success .placeholder-text-3 {
+  color: var(--variables-color-palette-success-main);
+}
+
+.select-custome .text-field.label-text.state-error .placeholder-text-3 {
+  color: #ff4c51;
+}
+
+.select-custome .text-field.label-text.state-disabled .placeholder-text-3 {
+  color: #2e263de6;
+}
+
+.select-custome .text-field.label-text.state-default .placeholder-text-3 {
+  color: #2e263de6;
+}
+
+.select-custome .text-field.label-text.state-focus .placeholder-text-3 {
+  color: #2e263de6;
+}
+
+.select-custome .text-field.label-text.state-hover .placeholder-text-3 {
+  color: #2e263de6;
+}
+
+.select-custome .text-field.SM .input {
+  font-family: var(--components-typography-input-text-small-font-family);
+  font-size: var(--components-typography-input-text-small-font-size);
+  font-style: var(--components-typography-input-text-small-font-style);
+  font-weight: var(--components-typography-input-text-small-font-weight);
+  letter-spacing: var(--components-typography-input-text-small-letter-spacing);
+  line-height: var(--components-typography-input-text-small-line-height);
+}
+
+.select-custome .text-field.LG .input {
+  font-family: var(--components-typography-input-text-large-font-family);
+  font-size: var(--components-typography-input-text-large-font-size);
+  font-style: var(--components-typography-input-text-large-font-style);
+  font-weight: var(--components-typography-input-text-large-font-weight);
+  letter-spacing: var(--components-typography-input-text-large-letter-spacing);
+  line-height: var(--components-typography-input-text-large-line-height);
+}
+
+.select-custome .text-field.m .input {
+  font-family: var(--components-typography-input-text-font-family);
+  font-size: var(--components-typography-input-text-font-size);
+  font-style: var(--components-typography-input-text-font-style);
+  font-weight: var(--components-typography-input-text-font-weight);
+  letter-spacing: var(--components-typography-input-text-letter-spacing);
+  line-height: var(--components-typography-input-text-line-height);
+}
+
+.select-custome.disabled .form-text {
+  opacity: 0.38;
+}
+
+.select-custome.disabled .supporting-text {
+  color: var(--variables-theme-text-secondary-duplicate);
+}
+
+.select-custome.hover .supporting-text {
+  color: #2e263db2;
+}
+
+.select-custome.focus .supporting-text {
+  color: #2e263db2;
+}
+
+.select-custome.default .supporting-text {
+  color: #2e263db2;
+}
+
+.select-custome.success .supporting-text {
+  color: var(--variables-color-palette-success-main);
+}
+
+.select-custome.error .supporting-text {
+  color: #ff4c51;
+}

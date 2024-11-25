@@ -1,0 +1,1 @@
+export { RemixIconsLineBusinessMailOpenLine } from "./RemixIconsLineBusinessMailOpenLine";

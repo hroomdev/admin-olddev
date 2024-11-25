@@ -1,0 +1,1 @@
+export { RemixIconsLineSystemArrowLeftLine } from "./RemixIconsLineSystemArrowLeftLine";

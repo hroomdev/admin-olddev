@@ -1,0 +1,1 @@
+export { RemixIconsLineBusinessBarChartBoxLine } from "./RemixIconsLineBusinessBarChartBoxLine";

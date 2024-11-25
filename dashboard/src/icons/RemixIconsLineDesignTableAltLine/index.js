@@ -1,0 +1,1 @@
+export { RemixIconsLineDesignTableAltLine } from "./RemixIconsLineDesignTableAltLine";
